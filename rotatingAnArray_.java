@@ -67,3 +67,44 @@ class GFG {
 		}
 	}
 }
+
+
+/* My send code
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GFG {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		StringBuilder sb;
+		int t = sc.nextInt();
+		int[] a;
+		int[] copy;
+		int rot,s;
+		for(int i=0;i<t;i++){
+		    sb = new StringBuilder();
+		    s = sc.nextInt();
+		    a = new int[s];
+		    copy = new int[s];
+		    rot = sc.nextInt();
+		    for(int k=0;k<s;k++){
+		        a[k] = sc.nextInt();
+		    }
+		    for(int k=rot;k<s;k++){
+		       sb.append(a[k]);
+		        sb.append(" ");
+		    }
+		    for(int k=0;k<rot;k++){
+		        sb.append(a[k]);
+		        sb.append(" ");
+		        
+		    }
+		    
+		    System.out.println(sb);
+		}
+	}
+}
+
+
+*/
